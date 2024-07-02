@@ -1,0 +1,110 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(8, 0, 0);
+  text-align: center;
+  color: white;
+}
+
+/* App.css */
+
+/* App.css */
+body {
+  background-color: #315f87; /* Light blue background color */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.container {
+  padding-top: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* App.css */
+
+/* Ensure the navbar is dark and collapsible */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddd;
+}
+
+/* Style the dropdown menu to appear below the toggler button */
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateY(0);
+}
+
+.navbar-nav .dropdown-menu-right {
+  right: 0;
+  left: auto;
+  transform: translateY(0);
+}
+
+/* Adjust the dropdown menu styling */
+.dropdown-menu {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+/* Ensure the navbar-toggler icon is visible */
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2889, 92, 96, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Notifications badge styling */
+.badge-danger {
+  background-color: #dc3545;
+}
